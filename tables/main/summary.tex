@@ -1,0 +1,16 @@
+\begin{tabular}{lcc}
+\toprule
+Performance measure & Scheme A & Scheme B\\
+\midrule
+Number of pairs & 1000 & 720\\
+Coverage of $[\mathrm{LB},\mathrm{UB}]$ & 1000/1000 & 720/720\\
+Median lower-bound slack, $1-\mathrm{LB}/\rho_\mathcal{N}$ (\%) & 0.39 & 1.52\\
+Median upper-bound excess, $\mathrm{UB}/\rho_\mathcal{N}-1$ (\%) & 0.03 & 0.03\\
+Certified width $(\mathrm{UB}-\mathrm{LB})/\rho_\mathcal{N}$ (\%): median / 95th pct. & 0.42 / 7.52 & 1.54 / 8.95\\
+Point estimate $\hat\rho$: median relative error (\%) & 0.02 & 0.03\\
+\midrule
+Geodesic enclosure ($T=32$): pairs evaluated & 987 & 720\\
+Geodesic enclosure: coverage & 987/987 & 720/720\\
+Geodesic enclosure: width (\%), median / 95th pct. & 0.08 / 0.36 & 0.01 / 0.10\\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,59 @@
+{
+ "mcA": {
+  "n": 1000,
+  "viol_lb": 0,
+  "viol_ub": 0,
+  "viol_beta": 0,
+  "marg_beats_co": 0.234,
+  "point_med": 0.0001873231806780451,
+  "point_q95": 0.01731231743052617,
+  "point_max": 0.16344999700167362,
+  "width_lt1": 0.657,
+  "width_lt5": 0.91,
+  "width_med": 0.004205243115263372,
+  "ub_rel_med": 0.000262305883643954,
+  "ub_rel_q95": 0.017314047670738974,
+  "ub_winner": {
+   "spc": 0.472,
+   "curve_m": 0.001,
+   "curve_em": 0.002,
+   "curve_co": 0.525
+  },
+  "ref": {
+   "n_multi": 13,
+   "max_res_multi": 8.821725386204747e-13,
+   "max_spread": 4.707345624410664e-13,
+   "single_start": 0,
+   "inside": 13,
+   "max_res_all": 4.31363245123606e-09
+  }
+ },
+ "mcB": {
+  "n": 720,
+  "viol_lb": 0,
+  "viol_ub": 0,
+  "viol_beta": 0,
+  "marg_beats_co": 0.05416666666666667,
+  "point_med": 0.00026730720161238786,
+  "point_q95": 0.01797840733157662,
+  "point_max": 0.043824728154306714,
+  "width_lt1": 0.3736111111111111,
+  "width_lt5": 0.7277777777777777,
+  "width_med": 0.01544692030371677,
+  "ub_rel_med": 0.0002751678541124125,
+  "ub_rel_q95": 0.018024890851679368,
+  "ub_winner": {
+   "spc": 0.09722222222222222,
+   "curve_em": 0.10138888888888889,
+   "curve_co": 0.8013888888888889
+  },
+  "ref": {
+   "n_multi": 0,
+   "max_res_multi": 0.0,
+   "max_spread": 0.0,
+   "single_start": 0,
+   "inside": 0,
+   "max_res_all": 0.0
+  }
+ }
+}
